@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:bswiley/Spark_Concepts.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "handlebars"]
+	remote = origin
+	merge = refs/heads/handlebars
+[branch "handlebars2"]
+	remote = origin
+	merge = refs/heads/handlebars2
+[remote "heroku"]
+	url = https://git.heroku.com/sparks-connected.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
